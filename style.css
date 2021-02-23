@@ -1,0 +1,11 @@
+#locationSearch{
+    width: 400px;
+}
+
+#querySearch{
+    width: 400px;
+}
+
+#loadingGif{
+    display: none;
+}

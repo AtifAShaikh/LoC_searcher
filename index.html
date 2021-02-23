@@ -8,38 +8,41 @@
     </head>
     <body>
 
+        <!-- <img src="https://tile.loc.gov/storage-services/service/pnp/pga/13800/13840_150px.jpg"> -->
 
 
-
-        <form>
+        <div class='d-flex flex-column justify-content-center align-items-center mt-3 mb-3' id='formContainer' >
+          <form class="col-9 col-md-9 col-lg-9 d-flex flex-column justify-content-center align-items-center">
             <div class="row mb-3">
               <div class="col-3 col-sm-9 col-md-6 col-lg-4">
-                <input type="searchOption" class="form-control" id="search" placeholder="location">
+                <input type="searchOption" class="form-control" id="locationSearch" placeholder="location">
               </div>
             </div>
             <div class="row mb-3">
                 <div class="col-3 col-sm-9 col-md-6 col-lg-4">
-                  <input type="searchOption" class="form-control" id="search" placeholder="location">
+                  <input type="searchOption" class="form-control" id="querySearch" placeholder="subject">
                 </div>
               </div>
-            
-          <div class="col-12">
-              <button type="submit" class="btn btn-primary">Submit</button>
+            <div>
+              <button type="submit" class="btn btn-primary" id="sub">Submit</button>
             </div>
           </form>
+        </div>
+        
+        <div class="d-flex flex-column justify-content-center align-items-center">
+          <img src="https://media1.giphy.com/media/3oEjI6SIIHBdRxXI40/200.gif" id="loadingGif">
+        </div>
 
 
-        <div class="container">
-            <div class="card">
+        <div class="container" id="card_container">
+            <!-- <div class="card mt-2 mb-2">
                 <h1 class="title">Title</h1>
-                <p class="content">Article Content</p>
+                <h6>date, location</h6>
+                <img src='#'>
+                <p class="content">Description</p>
                 <button type="button" class="btn btn-secondary col-12 col-md-2 col-lg-2">Read More</button>
-            </div>
-            <div class="card">
-                <h1 class="title">Title</h1>
-                <p class="content">Article Content</p>
-                <button type="button" class="btn btn-secondary col-12 col-md-2 col-lg-2">Read More</button>
-            </div>
+            </div> -->
+            
                 
           </div>
 
